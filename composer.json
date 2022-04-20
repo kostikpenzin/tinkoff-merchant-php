@@ -17,7 +17,7 @@
     },
     "autoload": {
         "psr-4": {
-            "kostikpenzin\\tinkoff-merchant-php\\": "src/"
+            "kostikpenzin\\TinkoffMerchant\\": "src/"
         }
     }
 }
