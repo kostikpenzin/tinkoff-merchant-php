@@ -1,0 +1,23 @@
+{
+    "name": "kostikpenzin/tinkoff-merchant-php",
+    "description": "Library for tinkoff.ru merchant API",
+    "type": "library",
+    "keywords": ["php", "extension", "library", "tinkoff", "tinkoff.ru", "merchant", "payment", "pay"],
+    "homepage": "https://github.com/kostikpenzin/yii2-slackbot",
+    "license": "MIT",
+    "authors": [{
+        "name": "Konstantin Penzin",
+        "email": "penzin85@gmail.com"
+    }],
+    "require": {
+        "php": ">=7.1",
+        "ext-curl": "*",
+        "ext-mbstring": "*",
+        "ext-json": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "kostikpenzin\\tinkoff-merchant-php\\": "src/"
+        }
+    }
+}
