@@ -278,7 +278,7 @@ class TinkoffMerchant
 
             return $out;
         } else {
-            throw new Exception('Can not create connection to ' . $api_url . ' with args ' . $args, 404);
+            throw new \Exception('Can not create connection to ' . $api_url . ' with args ' . $args, 404);
         }
     }
 }
