@@ -1,5 +1,7 @@
 <?php
 
+namespace kostikpenzin\tinkoff;
+
 /**
  * TinkoffMerchant
  */
